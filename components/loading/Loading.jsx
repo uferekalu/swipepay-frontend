@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-const Loading = () => {
+const Loading = (props) => {
   return (
     <div
       style={{
@@ -12,8 +12,8 @@ const Loading = () => {
     >
       <Image
         src="/assets/images/loader.svg"
-        width={20}
-        height={20}
+        width={props.width ? props.width :  20}
+        height={props.height ? props.height : 20}
         alt="loader"
       />
     </div>

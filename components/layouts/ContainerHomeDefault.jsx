@@ -12,7 +12,7 @@ export default function ContainerHomeDefault({ children, title }) {
         <Head>
           <title>{titleView}</title>
         </Head>
-        <div className="flex min-h-screen flex-col">
+        <div className="flex min-h-screen flex-col p-5">
           <main>{children}</main>
         </div>
       </>

@@ -37,13 +37,19 @@ export default function HeaderDefault(props) {
             <>
             <button
               onClick={() => router.push("/order-history")}
-              className="px-4 py-1 h-9 text-sm text-purple-600 font-medium rounded-full border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-offset-2"
+              className="px-2 py-2 h-9 text-xs text-purple-600 font-medium rounded-full border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-offset-2"
             >
               View Order History
             </button>
+            <button
+              onClick={() => router.push("/checkout")}
+              className="px-2 py-2 h-9 text-xs text-purple-600 font-medium rounded-full border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-offset-2"
+            >
+              Checkout
+            </button>
           <button
             onClick={handleLogout}
-            className="px-4 py-1 h-9 bg-black text-sm text-white font-medium rounded-full hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-offset-2"
+            className="px-2 py-2 h-9 bg-black text-sm text-white font-medium rounded-full hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-offset-2"
           >
             Logout
           </button>
@@ -52,13 +58,13 @@ export default function HeaderDefault(props) {
           <>
             <button
               onClick={() => router.push("/signup")}
-              className="px-4 py-1 h-9 text-sm text-purple-600 font-medium rounded-full border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-offset-2"
+              className="px-2 py-2 h-9 text-sm text-purple-600 font-medium rounded-full border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-offset-2"
             >
               Sign Up
             </button>
             <button
               onClick={() => router.push("/login")}
-              className="px-4 py-1 h-9 bg-black text-sm text-white font-medium rounded-full hover:text-black hover:bg-white hover:border-slate-500 focus:outline-none focus:ring-2 focus:ring-offset-2"
+              className="px-2 py-2 h-9 bg-black text-sm text-white font-medium rounded-full hover:text-black hover:bg-white hover:border-slate-500 focus:outline-none focus:ring-2 focus:ring-offset-2"
             >
               Log In
             </button>

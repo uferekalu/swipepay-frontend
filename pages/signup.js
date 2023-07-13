@@ -46,7 +46,7 @@ export default function Signup({ title = "Signup" }) {
             <Head>
                 <title>{titleView}</title>
             </Head>
-            <div className="flex min-h-screen flex-col">
+            <div className="flex min-h-screen flex-col p-5">
                 <div className="flex flex-col max-w-sm rounded-lg shadow-lg p-4 m-auto mt-6 bg-slate-100">
                     <h2 className="flex justify-center items-center text-xl text-black  font-medium">Register</h2>
                     <div className="flex space-x-2 italic mt-4 text-green-700">

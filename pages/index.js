@@ -9,6 +9,7 @@ export default function Home() {
         It encompasses connecting to stripe api and storing all payed orders in a MongoDB database.
         This includes a simple checkout page and with the Stripe integration, every confirmed payed order
         is stored in the database with the order history of the user.
+        Click on signup to register and use {"pm_card_mastercard"} as Payment method ID to create a mock order.
       </div>
     </ContainerHomeDefault>
   )
